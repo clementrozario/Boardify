@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Routes
-import userRoutes from "./routes/userRoutes";
+import userRoutes from "./routes/user.route";
 app.use("/api/users", userRoutes);
 
 export default app;
